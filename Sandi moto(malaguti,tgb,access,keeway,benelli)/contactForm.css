@@ -1,0 +1,27 @@
+#contact_form_holder {  
+    font-variant: small-caps; 
+    width:400px;
+	margin-left: 100px;
+}
+#contact_form_holder input, #contact_form_holder textarea { 
+    width:100%; /* make all the inputs and the textarea same size (100% of the div they are into) */ 
+    font-family:inherit; /* we must set this, because it doesn't inherits it */ 
+    padding:5px;
+}
+#contact_form_holder textarea { 
+    height:100px; /* i never liked small textareas, so make it 100px in height */ 
+}
+#send_message { 
+    width:200px !important; /* the width of the submit button  */ 
+    font-variant: small-caps; /* nicer font-variant (like explained before) */  
+    border:1px solid black; /* remove the default border and put a normal black one */
+    cursor:pointer;
+    cursor:hand;
+}
+#cf_submit_p { text-align:right; } /* show the submit button aligned with the right side */
+
+.error { display: none; padding:10px; color: #D8000C; font-size:12px;background-color: #FFBABA;}
+.success { display: none; padding:10px; color: #044406; font-size:12px;background-color: #B7FBB9;}
+
+#contact_logo { vertical-align: middle; }
+.error img { vertical-align:top; }
